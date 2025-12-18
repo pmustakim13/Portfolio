@@ -48,7 +48,13 @@ const Projects = () => {
             tags: ["Scikit-Learn", "NumPy", "BERT"],
             link: "https://github.com/pmustakim13/AI-Resume-Matchmaking"
         },
-        
+        {
+            title: "Weather Chatbot",
+            description: "Developed an AI-powered weather application that interprets natural language queries to provide real-time weather insights. Integrated LangChain and OpenRouter with a FastAPI backend to intelligently fetch and format data from Open-Meteo.",
+            tags: ["React", "FastAPI", "LangChain", "OpenRouter", "Open-Meteo"],
+            link: "https://github.com/pmustakim13/Weather-AI.git"
+        },
+
     ];
 
     return (
