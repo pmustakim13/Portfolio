@@ -1,0 +1,28 @@
+
+> portfolio_mustakim@0.0.0 build
+> vite build
+
+[36mvite v7.2.7 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 49 modules transformed.
+Γ£ù Build failed in 461ms
+error during build:
+src/components/Skills.jsx (5:139): "SiVisualstudiocode" is not exported by "node_modules/react-icons/si/index.mjs", imported by "src/components/Skills.jsx".
+file: C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/src/components/Skills.jsx:5:139
+
+3:     FaPython, FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaDatabase, FaGitAlt, FaDocker
+4: } from 'react-icons/fa';
+5: import { SiTypescript, SiAngular, SiBootstrap, SiSequelize, SiMysql, SiScikitlearn, SiTensorflow, SiNumpy, SiPandas, SiPytorch, SiPostman, SiVisualst...
+                                                                                                                                              ^
+6: import './Skills.css';
+
+    at getRollupError (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at Module.error (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:16956:16)
+    at Module.traceVariable (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:17412:29)
+    at ModuleScope.findVariable (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:15076:39)
+    at ReturnValueScope.findVariable (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at FunctionBodyScope.findVariable (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:5649:38)
+    at Identifier.bind (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:5423:40)
+    at CallExpression.bind (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:2809:28)
+    at CallExpression.bind (file:///C:/Users/Asus/.gemini/antigravity/scratch/portfolio_mustakim/node_modules/rollup/dist/es/shared/node-entry.js:12123:15)
