@@ -64,3 +64,10 @@
     color: var(--accent-primary);
     transform: translateY(-3px);
 }
+
+@media (max-width: 768px) {
+    .contact-card {
+        padding: 25px;
+        width: 100%;
+    }
+}

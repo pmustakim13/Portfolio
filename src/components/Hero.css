@@ -27,6 +27,7 @@
     line-height: 1.1;
     margin-bottom: 10px;
     background: linear-gradient(to right, var(--text-primary), var(--text-secondary));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -98,21 +99,61 @@ code {
     .hero-container {
         grid-template-columns: 1fr;
         text-align: center;
+        gap: 30px;
     }
 
     .hero-actions {
         justify-content: center;
+        flex-wrap: wrap;
     }
 
     .hero-visual {
-        margin-top: 50px;
+        margin-top: 30px;
+        /* Make visual smaller on tablets/mobile */
+        zoom: 0.8;
     }
 
     .hero-name {
         font-size: 3rem;
     }
+}
+
+@media (max-width: 480px) {
+    .hero-name {
+        font-size: 2.2rem;
+        /* Significantly smaller for mobile */
+    }
 
     .hero-title {
-        font-size: 2rem;
+        font-size: 1.25rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        margin-bottom: 25px;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+    }
+
+    .hero-actions .btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .code-block-decoration {
+        padding: 15px;
+        font-size: 0.8rem;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .glow-circle {
+        width: 250px;
+        height: 250px;
+        filter: blur(60px);
     }
 }

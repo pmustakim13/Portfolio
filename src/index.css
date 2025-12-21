@@ -160,3 +160,9 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-secondary);
 }
+
+@media (max-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
+}
