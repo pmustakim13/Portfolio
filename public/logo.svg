@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="80" fill="black" rx="8" />
+
+  <g font-family="Verdana, Geneva, sans-serif" font-weight="bold" fill="#8b5cf6">
+    <text x="20" y="55" font-size="50">&lt;</text>
+    
+    <text x="55" y="55" font-size="45" letter-spacing="-1">MP</text>
+    
+    <text x="130" y="55" font-size="50">/&gt;</text>
+  </g>
+</svg>

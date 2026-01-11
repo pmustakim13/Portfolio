@@ -31,7 +31,7 @@ const Education = () => {
                             <EducationItem
                                 degree="B.Tech — AI & Data Science"
                                 institution="Vishwakarma University, Pune"
-                                score="GPA: 7.5"
+                                score="GPA: 7.99"
                                 date="Present"
                             />
                             <EducationItem
